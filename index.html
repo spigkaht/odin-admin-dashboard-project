@@ -103,30 +103,61 @@
         </ul>
       </div>
       <div class="header">
-        <div>icon</div>
-        <div>search bar</div>
-        <div>icon</div>
-        <div>icon</div>
-        <div>Benjamin Jackson</div>
-        <div>icon</div>
-        <p>Hi there,</p>
-        <p>Benjamin Jackson (@spigkaht)</p>
-        <div>New</div>
-        <div>Upload</div>
-        <div>Share</div>
+        <div class="header-search">
+          <div class="bell-icon">
+            <img
+              src="./images/magnify-icon.svg"
+              alt="search icon"
+              width="25px"
+              height="25px"
+            />
+          </div>
+          <input type="text" id="search" name="search" />
+        </div>
+        <div class="header-info">
+          <img
+            src="./images/bell-ring-icon.svg"
+            alt="bell icon"
+            width="25px"
+            height="25px"
+          />
+          <img
+            src="./images/avatar-icon.webp"
+            alt="avatar icon"
+            width="40px"
+            height="40px"
+          />
+          <div class="header-name">Benjamin Jackson</div>
+        </div>
+        <div class="header-greeting">
+          <img
+            src="./images/avatar-icon.webp"
+            alt="avatar icon"
+            width="60px"
+            height="60px"
+          />
+          <p class="header-hi">Hi there,</p>
+          <p class="header-handle">Benjamin Jackson (@spigkaht)</p>
+        </div>
+        <div class="header-buttons">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
       </div>
       <div class="main-content">
-        <div>
-          <p>Your Projects</p>
-          <div>
+        <div class="main-left">
+          <p class="main-projects">Your Projects</p>
+          <div class="card">
             <p>Super Cool Project</p>
             <p>
               In fermentum et sollicitudin ac orci phasellus. Lectus magna
               fringilla urna porttitor. Pellentesque
             </p>
+            <div>icon icon icon</div>
             <div></div>
           </div>
-          <div>
+          <div class="card">
             <p>Less Cool Project</p>
             <p>
               At tempor commodo ullamcorper a lacus vestibulum sed. Netus et
@@ -134,7 +165,7 @@
             </p>
             <div>icon icon icon</div>
           </div>
-          <div>
+          <div class="card">
             <p>Impossible App</p>
             <p>
               In fermentum et sollicitudin ac orci phasellus. Lectus magna
@@ -143,7 +174,7 @@
             </p>
             <div>icon icon icon</div>
           </div>
-          <div>
+          <div class="card">
             <p>Easy Peasy App</p>
             <p>
               Netus et malesuada fames ac turpis egestas sed. Faucibus vitae
@@ -151,7 +182,7 @@
             </p>
             <div>icon icon icon</div>
           </div>
-          <div>
+          <div class="card">
             <p>Ad Blocker</p>
             <p>
               Odio ut sem nulla pharetra diam sit. Nam libero justo laoreet sit
@@ -159,7 +190,7 @@
             </p>
             <div>icon icon icon</div>
           </div>
-          <div>
+          <div class="card">
             <p>Money Maker</p>
             <p>
               Tortor condimentum lacinia quis vel eros donec ac odio tempor.
@@ -168,36 +199,67 @@
             </p>
             <div>icon icon icon</div>
           </div>
-          <div>
-            <p>Announcements</p>
-            <div>
+        </div>
+        <div>
+          <div class="main-right">
+            <p class="announcements-title">Announcements</p>
+            <div class="announcements">
               <p>Site Maintenance</p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua...
               </p>
+              <p>Community Share Day</p>
               <p>
                 Ultrices eros in cursus turpis. Odio facilisis mauris sit amet
                 massa vitae. Luctus accumsan tortor posuere ac ut consequat...
               </p>
+              <p>Updated Privacy Policy</p>
               <p>
                 In hendrerit gravida rutrum quisque non tellus. Nibh ipsum
                 consequat nisl vel pretium. Amet aliquam id diam maecenas...
               </p>
             </div>
-            <div>
-              <p>Trending</p>
-              <div>icon</div>
+            <p>Trending</p>
+            <div class="trending">
+              <div class="avatar1">
+                <img
+                  src="./images/avatar-icon.webp"
+                  alt="avatar icon"
+                  width="40px"
+                  height="40px"
+                />
+              </div>
               <p>@tegan</p>
-              <p></p>
               <p>World Peace Builder</p>
-              <div>icon</div>
+              <div class="avatar2">
+                <img
+                  src="./images/avatar-icon.webp"
+                  alt="avatar icon"
+                  width="40px"
+                  height="40px"
+                />
+              </div>
               <p>@morgan</p>
               <p>Super Cool Project</p>
-              <div>icon</div>
+              <div class="avatar3">
+                <img
+                  src="./images/avatar-icon.webp"
+                  alt="avatar icon"
+                  width="40px"
+                  height="40px"
+                />
+              </div>
               <p>@kendall</p>
               <p>Life Changing App</p>
-              <div>icon</div>
+              <div class="avatar4">
+                <img
+                  src="./images/avatar-icon.webp"
+                  alt="avatar icon"
+                  width="40px"
+                  height="40px"
+                />
+              </div>
               <p>@alex</p>
               <p>No Traffic Manager</p>
             </div>
